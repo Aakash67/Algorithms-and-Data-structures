@@ -1,7 +1,10 @@
+#Linear search in python 
 def linearsearch(lis,target):
     for i in range(len(lis)):
+        #if the target element matches the element in the list, the index of the element is returned
         if lis[i]==target:
             return i
+    #if the target element is not found return -1
     else:
         return -1
     
